@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+	<title>Blogs</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="OneTech shop project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/blogs.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Font Icon -->
+	<link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+	<!-- Main css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+
+			<!-- Top Bar -->
+
+			<div class="top_bar">
+				<div class="container">
+					<div class="row">
+						<div class="col d-flex flex-row">
+							<div class="top_bar_contact_item">
+								<div class="top_bar_icon"><img src="images/phone.png" alt=""></div>+38 068 005 3570
+							</div>
+							<div class="top_bar_contact_item">
+								<div class="top_bar_icon"><img src="images/mail.png" alt=""></div><a
+									href="https://colorlib.com/cdn-cgi/l/email-protection#234542505750424f465063444e424a4f0d404c4e"><span
+										class="__cf_email__"
+										data-cfemail="34525547404755585147745359555d581a575b59">[email&#160;protected]</span></a>
+							</div>
+							<div class="top_bar_content ml-auto">
+								<div class="top_bar_user" style="margin-top: 15px;">
+									<div class="user_icon"><img src="images/user.svg" alt=""></div>
+									<button onclick="document.getElementById('id01').style.display='block'"
+										style="width:auto;">Đăng Nhập</button>
+									<button onclick="document.getElementById('id02').style.display='block'"
+										style="width:auto;margin-left: 5px;">Đăng Kí</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Header Main -->
+
+			<div class="header_main">
+				<div class="container">
+					<div class="row">
+
+						<!-- Logo -->
+						<div class="col-lg-2 col-sm-3 col-3 order-1">
+							<div class="logo_container">
+								<div class="logo"><a href="index.html">HPTStore</a></div>
+							</div>
+						</div>
+
+						<!-- Search -->
+						<div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+							<div class="header_search">
+								<div class="header_search_content">
+									<div class="header_search_form_container">
+										<form action="#" class="header_search_form clearfix">
+											<input type="search" required="required" class="header_search_input"
+												placeholder="Search for products...">
+											<div class="custom_dropdown">
+												<div class="custom_dropdown_list">
+													<span class="custom_dropdown_placeholder clc">All Categories</span>
+													<i class="fa fa-chevron-down"></i>
+													<ul class="custom_list clc">
+														<li><a class="clc" href="#">All Categories</a></li>
+														<li><a class="clc" href="#">Computers</a></li>
+														<li><a class="clc" href="#">Laptops</a></li>
+														<li><a class="clc" href="#">Cameras</a></li>
+														<li><a class="clc" href="#">Hardware</a></li>
+														<li><a class="clc" href="#">Smartphones</a></li>
+													</ul>
+												</div>
+											</div>
+											<button type="submit" class="header_search_button trans_300"
+												value="Submit"><img src="images/search.png" alt=""></button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Wishlist -->
+						<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+							<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+								<div class="wishlist d-flex flex-row align-items-center justify-content-end">
+									<div class="wishlist_icon"><img src="images/heart.png" alt=""></div>
+									<div class="wishlist_content">
+										<div class="wishlist_text"><a href="#">Wishlist</a></div>
+										<div class="wishlist_count">115</div>
+									</div>
+								</div>
+
+								<!-- Cart -->
+								<div class="cart">
+									<div class="cart_container d-flex flex-row align-items-center justify-content-end">
+										<div class="cart_icon">
+											<img src="images/cart.png" alt="">
+											<div class="cart_count"><span>10</span></div>
+										</div>
+										<div class="cart_content">
+											<div class="cart_text"><a href="cart.html">Cart</a></div>
+											<div class="cart_price">$85</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+
+			<nav class="main_nav">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+
+							<div class="main_nav_content d-flex flex-row">
+
+								<!-- Categories Menu -->
+
+								<div class="cat_menu_container">
+									<div
+										class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
+										<div class="cat_burger"><span></span><span></span><span></span></div>
+										<div class="cat_menu_text">categories</div>
+									</div>
+
+									<ul class="cat_menu">
+										<li><a href="#">Computers & Laptops</a></li>
+										<li><a href="#">Cameras & Photos</a></li>
+										<li class="hassubs">
+											<a href="#">Hardware<i class="fa fa-chevron-right"></i></a>
+											<ul>
+												<li class="hassubs">
+													<a href="#">Hard Drive<i class="fa fa-chevron-right"></i></a>
+													<ul>
+														<li><a href="#">SSD 256GB</a></li>
+														<li><a href="#">SSD 128GB</a></li>
+														<li><a href="#">SSD 512GB</a></li>
+														<li><a href="#">HDD 1TB</a></li>
+														<li><a href="#">HDD 2TB</a></li>
+													</ul>
+												</li>
+												<li><a href="#">VGA</a></li>
+												<li><a href="#">Circuit Board</a></li>
+												<li><a href="#">Screen</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Smartphones & Tablets</a></li>
+										<li><a href="#">TV & Audio</a></li>
+										<li><a href="#">Car Electronics</a></li>
+										<li><a href="#">Accessories</a></li>
+									</ul>
+								</div>
+
+								<!-- Main Nav Menu -->
+
+								<div class="main_nav_menu ml-auto">
+									<ul class="standard_dropdown main_nav_dropdown">
+										<li><a href="index.html">Home</a></li>
+										<li class="hassubs">
+											<a href="#">Super Deals<i class="fa fa-chevron-down"></i></a>
+											<ul>
+												<li>
+													<a href="#">Special Deals<i class="fa fa-chevron-down"></i></a>
+													<ul>
+														<li><a href="#">Combo 1</a></li>
+														<li><a href="#">Combo 2</a></li>
+														<li><a href="#">Combo 3</a></li>
+													</ul>
+												</li>
+												<li><a href="#">5 %</a></li>
+												<li><a href="#">7 %</a></li>
+												<li><a href="#">10 %</a></li>
+											</ul>
+										</li>
+										<li class="hassubs">
+											<a href="#">Featured Brands<i class="fa fa-chevron-down"></i></a>
+											<ul>
+												<li>
+													<a href="#">Apple<i class="fa fa-chevron-down"></i></a>
+													<ul>
+														<li><a href="#">Macbook</a></li>
+														<li><a href="#">Gear</a></li>
+														<li><a href="#">Iphone</a></li>
+													</ul>
+												</li>
+												<li><a href="#">Asus</a></li>
+												<li><a href="#">Sammsung</a></li>
+												<li><a href="#">Vinsmart</i></a></li>
+											</ul>
+										</li>
+										<li class="hassubs">
+											<a href="#">Pages<i class="fa fa-chevron-down"></i></a>
+											<ul>
+												<li><a href="product.html">Product</a></li>
+												<li><a href="blogs.html">Blogs</a></li>
+												<li><a href="blog_single.html">Blog Single</a></li>
+												<li><a href="cart.html">Cart</a></li>
+												<li><a href="contact.html">Contact</a></li>
+											</ul>
+										</li>
+										<li><a href="blog.html">Blogs</a></li>
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Menu -->
+
+		</header>
+
+		<!-- Home -->
+		<div class="title">
+			<h2 class="home_title">Technological Blog</h2>
+		</div>
+
+
+		<!-- Blog -->
+
+		<div class="blog">
+			<div class="container">
+				<div class="flex-row">
+					<!-- Blog post -->
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/featured_1.png" alt=""></div>
+						<div class="blog_text">Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et
+							malesuada.</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/adv_1.png" alt=""></div>
+						<div class="blog_text">Cras lobortis nisl nec libero pulvinar lacinia. Nunc sed
+							ullamcorper massa.</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/adv_2.png" alt=""></div>
+						<div class="blog_text">Fusce tincidunt nulla magna, ac euismod quam viverra id. Fusce
+							eget metus feugiat</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/adv_3.png" alt=""></div>
+						<div class="blog_text">Etiam leo nibh, consectetur nec orci et, tempus tempus ex</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="flex-row">
+					<!-- Blog post -->
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/best_5.png" alt=""></div>
+						<div class="blog_text">Sed viverra pellentesque dictum. Aenean ligula justo, viverra in
+							lacus porttitor</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/best_4.png" alt=""></div>
+						<div class="blog_text">In nisl tortor, tempus nec ex vitae, bibendum rutrum mi. Integer
+							tempus nisi</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/best_3.png" alt=""></div>
+						<div class="blog_text">Make Life Easier on Yourself by Accepting “Good Enough.” Don’t
+							Pursue Perfection.</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+
+					<div class="blog_post">
+						<div class="blog_image"><img src="images/best_2.png" alt=""></div>
+						<div class="blog_text">13 Reasons You Are Failing At Life And Becoming A Bum</div>
+						<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="id01" class="modal">
+		<div class="limiter">
+			<div class="container-login100">
+				<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" style="background-color: whitesmoke;">
+					<form class="login100-form validate-form animate">
+						<span class="login100-form-title p-b-49">
+							Login
+						</span>
+
+						<div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
+							<span class="label-input100">Username</span>
+							<input class="input100" type="text" name="username" placeholder="Type your username">
+							<span class="focus-input100" data-symbol="&#xf206;"></span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate="Password is required">
+							<span class="label-input100">Password</span>
+							<input class="input100" type="password" name="pass" placeholder="Type your password">
+							<span class="focus-input100" data-symbol="&#xf190;"></span>
+						</div>
+
+						<div class="text-right p-t-8 p-b-31">
+							<a href="#">
+								Forgot password?
+							</a>
+						</div>
+
+						<div class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn"></div>
+								<button class="login100-form-btn">
+									Login
+								</button>
+							</div>
+						</div>
+						<div style="float: right;margin-top: 30px;">
+							<button type="button" style="color: red;text-decoration: underline;"
+								onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="id02" class="modal">
+
+		<div class="main">
+
+			<section class="signup">
+				<div class="container2">
+					<div class="signup-content">
+						<form method="POST" id="signup-form" class="signup-form">
+							<h2 class="form-title">Đăng ký tài khoản</h2>
+							<div class="form-group">
+								<input type="text" class="form-input" name="name" id="name" placeholder="Your Name"
+									required />
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-input" name="email" id="email" placeholder="Your Email"
+									required />
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-input" name="password" id="password"
+									placeholder="Password" required />
+								<span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-input" name="re_password" id="re_password"
+									placeholder="Repeat your password" required />
+							</div>
+							<div class="form-group">
+								<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" required />
+								<label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all
+									statements in <a href="#" class="term-service">Terms of service</a></label>
+							</div>
+							<div class="form-group">
+								<input type="submit" name="submit" id="submit" class="form-submit" value="Sign up" />
+							</div>
+							<div style="float: right;margin-bottom: 20px;">
+								<button type="button" style="color: red;text-decoration: underline;"
+									onclick="document.getElementById('id02').style.display='none'">Cancel</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div
+						class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
+						<div class="newsletter_title_container">
+							<div class="newsletter_icon"><img src="images/send.png" alt=""></div>
+							<div class="newsletter_title">Sign up for Newsletter</div>
+							<div class="newsletter_text">
+								<p>...and receive %20 coupon for first shopping.</p>
+							</div>
+						</div>
+						<div class="newsletter_content clearfix">
+							<form action="#" class="newsletter_form">
+								<input type="email" class="newsletter_input" required="required"
+									placeholder="Enter your email address">
+								<button class="newsletter_button">Subscribe</button>
+							</form>
+							<div class="newsletter_unsubscribe_link"><a href="#">unsubscribe</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-3 footer_col">
+					<div class="footer_column footer_contact">
+						<div class="logo_container">
+							<div class="logo"><a href="#">HPTStore</a></div>
+						</div>
+						<div class="footer_title">Got Question? Call Us 24/7</div>
+						<div class="footer_phone">+38 068 005 3570</div>
+						<div class="footer_contact_text">
+							<p>An duong vuong street</p>
+							<p>Distric 5, TP HCM</p>
+						</div>
+						<div class="footer_social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fa fa-google"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 offset-lg-2">
+					<div class="footer_column">
+						<div class="footer_title">Find it Fast</div>
+						<ul class="footer_list">
+							<li><a href="#">Computers & Laptops</a></li>
+							<li><a href="#">Cameras & Photos</a></li>
+							<li><a href="#">Hardware</a></li>
+							<li><a href="#">Smartphones & Tablets</a></li>
+							<li><a href="#">TV & Audio</a></li>
+						</ul>
+						<div class="footer_subtitle">Gadgets</div>
+						<ul class="footer_list">
+							<li><a href="#">Car Electronics</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-2">
+					<div class="footer_column">
+						<ul class="footer_list footer_list_2">
+							<li><a href="#">Video Games & Consoles</a></li>
+							<li><a href="#">Accessories</a></li>
+							<li><a href="#">Cameras & Photos</a></li>
+							<li><a href="#">Hardware</a></li>
+							<li><a href="#">Computers & Laptops</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-2">
+					<div class="footer_column">
+						<div class="footer_title">Customer Care</div>
+						<ul class="footer_list">
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Order Tracking</a></li>
+							<li><a href="#">Wish List</a></li>
+							<li><a href="#">Customer Services</a></li>
+							<li><a href="#">Returns / Exchange</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Product Support</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<!-- Copyright -->
+
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+
+					<div
+						class="copyright_container d-flex flex-sm-row flex-column align-items-center justify-content-start">
+						<div class="logos ml-sm-auto">
+							<ul class="logos_list">
+								<li><a href="#"><img src="images/logos_1.png" alt=""></a></li>
+								<li><a href="#"><img src="images/logos_2.png" alt=""></a></li>
+								<li><a href="#"><img src="images/logos_3.png" alt=""></a></li>
+								<li><a href="#"><img src="images/logos_4.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="styles/bootstrap4/popper.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="js/blog_custom.js"></script>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="js/main2.js"></script>
+</body>
+
+
+</html>

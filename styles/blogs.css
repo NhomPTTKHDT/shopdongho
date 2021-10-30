@@ -1,0 +1,21 @@
+.cat_menu_container ul{
+	visibility: hidden;
+}
+.title{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 3px solid rgb(174, 174, 233);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top: 3px solid rgb(174, 174, 233);
+}
+.container{
+    margin-top: 20px;
+}
+.blog .blog_post{
+    width: 280px;
+    height: 350px;
+    margin-left: 20px;
+}

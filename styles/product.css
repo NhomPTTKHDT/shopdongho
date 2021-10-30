@@ -1,0 +1,72 @@
+
+.cat_menu_container ul{
+	visibility: hidden;
+}
+.single_product .container .row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.single_product .container .row .order-2 ul li img{
+	width: 80%;
+	border: 0.1px solid white;
+	transition: 0.3s;
+}
+.single_product .container .row .order-2 ul li img:hover{
+	border: 0.1px solid black;
+	transform: scale(1.2);
+}
+.single_product .container .row .order-1 .image_selected{
+	width: 360px;
+	height: 300px;
+	overflow: hidden;
+}
+.single_product .container .row .order-1 .image_selected img{
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+}
+.single_product .container .row .order-1 .image_selected:hover img{
+	transform: scale(1.2);
+}
+.single_product .container .row .order-3 .product_category{
+	font-size: 30px;
+	border-bottom: 0.4px solid black;
+}
+.single_product .container .row .order-3 .product_name{
+	font-size: 24px;
+	color: red;
+}
+.single_product .container .row .order-3 .product_rating{
+	margin: 20px 0 5px 0;
+}
+.single_product .container .row .order-3 .product_quantity span{
+	border-bottom: 1px solid black;
+	font-size: 18px;
+}
+.single_product .container .row .order-3 .product_quantity input{
+	border: 0.5px solid black;
+	width: 80px;
+	text-align: center;
+	margin-left: 20px;
+	border-radius: 3px;
+}
+.single_product .container .row .order-3 .product_quantity input:focus{
+	background-color: aqua;
+}
+.single_product .container .row .order-3 .product_price{
+	font-size: 20px;
+	color: red;
+	margin-bottom: 10px;
+}
+.single_product .container .row .order-3 .cart_button{
+	width: 150px;
+	background-color: white;
+	transition: 0.5s;
+	color: rgb(78, 75, 75);
+	border: 0.5px solid rgb(78, 75, 75);
+}
+.single_product .container .row .order-3 .cart_button:hover{
+	background-color:red;
+	color:  white;
+	border: 0.5px solid  white;
+}
